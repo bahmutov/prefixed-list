@@ -18,6 +18,19 @@ npm install --save prefixed-list
 
 ## Use
 
+Pass a list of strings with common prefix to get back a shorter string
+
+```js
+const prefixedList = require('prefixed-list')
+const list = ['prefix-foo', 'prefix-bar', 'prefix-baz']
+const result = prefixedList(list)
+// result is
+// "prefix-{foo, bar, baz}"
+```
+
+If the strings do not have common prefix, a string is returned with
+just the `list.join(', ')`
+
 ### Small print
 
 Author: Gleb Bahmutov &lt;gleb.bahmutov@gmail.com&gt; &copy; 2017

@@ -1,0 +1,12 @@
+exports['finds lengths of strings 1'] = [
+  1,
+  2,
+  3
+]
+
+exports['finds common prefix 1'] = "prefix-{foo, bar, baz}"
+
+exports['returns empty string for empty list 1'] = ""
+
+exports['handles no prefix 1'] = "foo, bar, baz"
+
