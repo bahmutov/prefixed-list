@@ -42,4 +42,8 @@ describe('prefixed-list', () => {
     const result = prefixedList(list)
     snapshot(result)
   })
+
+  it('works for single string', () => {
+    snapshot(prefixedList(['foo']))
+  })
 })

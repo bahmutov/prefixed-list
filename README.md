@@ -29,7 +29,9 @@ const result = prefixedList(list)
 ```
 
 If the strings do not have common prefix, a string is returned with
-just the `list.join(', ')`
+just the `list.join(', ')`.
+
+If a list contains a single item, it is returned by itself.
 
 ### Small print
 

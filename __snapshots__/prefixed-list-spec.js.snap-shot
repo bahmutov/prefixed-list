@@ -10,3 +10,5 @@ exports['returns empty string for empty list 1'] = ""
 
 exports['handles no prefix 1'] = "foo, bar, baz"
 
+exports['works for single string 1'] = "foo"
+

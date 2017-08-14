@@ -10,6 +10,9 @@ function prefixedList (list) {
   if (is.empty(list)) {
     return ''
   }
+  if (list.length === 1) {
+    return list[0]
+  }
 
   const first = list[0]
   const shortestLength = utils.shortest(list)
